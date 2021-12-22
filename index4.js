@@ -44,6 +44,8 @@ function createContact() {
     const contact = document.createElement('div');
     contact.innerHTML = `
     <h1>hey your results are too low please go and supplement and come back next year</h1>`;
+    addressBook.appendChild(contact);
   }
+ 
   
 }
