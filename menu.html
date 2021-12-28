@@ -1,0 +1,298 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<script src="https://kit.fontawesome.com/4e08d87d70.js" crossorigin="anonymous"></script>
+	<title>Home Page</title>
+</head>
+<body class="position-relative">
+	<header>
+		<!--##########################################################-->
+			<!--##########################################################-->
+				<!--##########################################################-->
+					<!--##########################################################-->
+						<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+				  <div class="container-fluid">
+  	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+
+          
+   	 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white bg-dark">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </li>
+            <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#contact"><i class="far fa-address-book"></i> Contact</a>
+            </li>
+           
+            <li class="nav-item">
+       <a class="nav-link" href="menu.html"><i class="far fa-address-card"></i> Menu</a>
+       </li>
+      
+     </ul>
+     </div>
+</nav>
+  
+	<!--###########################################################-->
+		</header>
+    <center><h1 style="font-size: 85px;"  class="head">Wings Cafe</h1></center>
+    
+    <center id="center" >
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/kota.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cola.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/nugets.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </center>
+    <div class="card" style="background-color:#411d1d;">
+  <div class="card-header">
+   <center>
+   <h2 class="card-title" style="color:white;">We Satisfy your Widest desires</h2>
+   </center>
+  </div>
+  <div class="card-body">
+    <center>
+    <p class="card-text" style="color:white;">You’re the Boss! 
+Stop, eat and go! Best Food for Fast Times We serve passion</p>
+    <a href="#" class="btn btn-warning">About Wings</a></center>
+  </div>
+</div>
+			<!--##############################################################-->
+				<center><h1>The Mouth watering meals offered at Wings Cafe</h1></center>
+					<!--################################################################-->
+						<!--################################################################-->
+					<!--################################################################-->
+				<!--################################################################-->
+			<div class="container-fluid d-flex justify-content-center">
+	<!--################################################################-->
+		<!--################################################################-->
+
+    <div class="row row-cols-1 row-cols-md-2 g-4" >
+  <div class="col-sm-6 col-lg-3">
+    <div class="card" style="width: 20em;">
+      <img class="card-img-top img-fluid"  src="images/cofi.jfif" style="height:190px;" alt="Coffee">
+      <div class="card-body">
+        <h5 class="card-title">
+          <span class="fa fa-star " id="first" onclick="first()"></span>
+        <span class="fa fa-star " id="second" onclick="second()"></span>
+          <span class="fa fa-star " id="third" onclick="third()"></span>
+             <span class="fa fa-star" id="forth" onclick="forth()"></span>
+            <span class="fa fa-star" id="fith" onclick="fith()"></span></h5>
+            <h4 id="bbc">4.5</h4>
+        <p class="card-text">The Breakfast Meals available at Wings Cafe</p> 
+        
+    <div class="card-footer" >
+       <section class="form">
+        <input type="text" id="comment-box" placeholder="Enter comment">
+        <button id="post"style="background-color: #07c948;right: 20px;">Post</button>
+        <ul id="unordered">
+           
+       </ul>
+         <p id="breakfast"></p>
+       </section>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-lg-3">
+    <div class="card" style="width: 20em;">
+      <img class="card-img-top" src="images/Lunch.jpg" height="190" alt="Lunch">
+      <div class="card-body">
+        <h5 class="card-title">
+          <span class="fa fa-star" id="alpha" onclick="delta()"></span>
+    <span class="fa fa-star " id="stan" onclick="john()"></span>
+<span class="fa fa-star " id="thabo" onclick="peter()"></span>
+<span class="fa fa-star" id="max" onclick="tom()"></span>
+<span class="fa fa-star" id="ted" onclick="sam()"></span></h5>
+<h4 id="llc">4.5</h4>
+        <p class="card-text">The Lunch Meals available at Wings Cafe</p> 
+        <div class="card-footer">
+       <section class="form">
+        <input type="text" id="comment-box4" placeholder="Enter comment">
+        <button id="post4"style="background-color: #07c948;right: 20px;">Post</button>
+        <ul id="unordered4">
+           
+       </ul>
+         <p id="lunch"></p>
+       </section>
+    </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-lg-3">
+    <div class="card" style="width: 20em;">
+      <img class="card-img-top" src="images/snacks.jfif" height="215" alt="Snacks">
+      <div class="card-body">
+        <h5 class="card-title">
+          <span class="fa fa-star " id="mark" onclick="elon()"></span>
+      <span class="fa fa-star " id="zuck" onclick="musk()"></span>
+          <span class="fa fa-star " id="waren" onclick="jeff()"></span>
+            <span class="fa fa-star" id="bafet" onclick="bezzos()"></span>
+        <span class="fa fa-star" id="dinesh" onclick="bill()"></span></h5>
+        <h4 id="kkc">4.5</h4>
+        <p class="card-text">The Snacks available at Wings Cafe</p>     
+    <div class="card-footer" >
+       <section class="form">
+        <input type="text" style="margin: 0;padding: 0;"id="comment-box3" placeholder="Enter comment">
+        <button id="post3" style="background-color: #07c948;right: 20px;">Post</button>
+        <ul id="unordered3">
+           
+       </ul>
+     
+         <p id="snack"></p>
+       </section>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="col-sm-6 col-lg-3">
+    <div class="card" style="width: 20em;">
+      <img class="card-img-top" src="images/drinks.jpg" height="215" alt="Drinks">
+      <div class="card-body">
+        <h5 class="card-title">
+          <span class="fa fa-star " id="jordan" onclick="luka()"></span>
+<span class="fa fa-star " id="nike" onclick="stume()"></span>
+<span class="fa fa-star " id="eforce" onclick="lenka()"></span>
+<span class="fa fa-star" id="adidas" onclick="thibos()"></span>
+<span class="fa fa-star" id="atata" onclick="boxy()"></span></h5>
+<h4 id="ffc">4.5</h4>
+        <p class="card-text" >The Drinks available at Wings Cafe</p> 
+        
+    <div class="card-footer" >
+      <section class="form">
+        <input type="text"style="margin: 0;padding: 0;"id="comment-box2" placeholder="Enter comment">
+        <button id="post2"style="background-color: #07c948;right: 20px;">Post</button>
+        <ul id="unordered2">
+           
+        </ul>
+         <p id="drink"></p>
+       </section>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<!--################################################################-->
+<!--################################################################-->
+	<!--################################################################-->
+   <footer
+          class="text-center text-lg-start text-white bg-dark"
+          style="background-color: #929fba"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Wings Cafe
+            </h6>
+            <p>
+              Wings is a food cord brand developed
+              by Limkokwing University Of Creative Technnology
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+
+          <hr class="w-100 clearfix d-md-none" />
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> LIMKOKWIN UNIVESITY Lesotho MP Campus</p>
+            <p><i class="fas fa-envelope mr-3"></i> wingsluct@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 266 223 164 29</p>
+            <p><i class="fas fa-print mr-3"></i> + 266 994 323 54</p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #3b5998"
+               href="https://www.facebook.com"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #55acee"
+               href="https://www.twitter.com"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #dd4b39"
+               href="https://www.google.com"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #ac2bac"
+               href="https://www.instagram.com"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #0082ca"
+               href="https://www.linkedin.com"
+               role="button"
+               ><i class="fab fa-linkedin-in"></i
+              ></a>
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #333333"
+               href="https://www.github.com"
+               role="button"
+               ><i class="fab fa-github"></i
+              ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="#"
+         >Dra9onFly.com</a
+        >
+    </div>
+  </footer>
+  <script src="script.js"> </script>
+		<!--################################################################-->
+			<!--################################################################-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
